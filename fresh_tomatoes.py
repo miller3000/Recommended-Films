@@ -2,6 +2,7 @@ import webbrowser
 import os
 import re
 
+#Generates HTML from Python - code primarily taken from Udacity tutorial
 
 # Styles and scripting for the page
 main_page_head = '''

@@ -1,6 +1,8 @@
 import webbrowser
 
-#FILM FEATURES FOR WEBSITE DISPLAY:
+#Establish Movie class to import to entertainment_center.py, apply to specific film instances.
+
+#Attributes of Movie class:
 class Movie():
     def __init__(self, movie_title, movie_storyline, poster_image, trailer,
                  release_date, country, director):
@@ -12,7 +14,7 @@ class Movie():
         self.country = country
         self.director = director
 
-#FUNCTION TO DISPLAY EMBEDDED YOUTUBE TRAILER:
+#Function to open YouTube link from within my page:
     def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
         

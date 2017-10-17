@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-#EIGHT FEATURED MOVIES AS INSTANCES IN ARRAY:
+#Data on featured films:
 mulholland_drive = media.Movie("Mulholland Drive",
                         "An actress comes to Hollywood and finds a world of nightmares.",
                         "https://upload.wikimedia.org/wikipedia/en/0/0f/Mulholland.png",
@@ -76,6 +76,7 @@ blood_lake = media.Movie("Blood Lake",
                    
 movies = [mulholland_drive, celine_and_julie, tokyo_story, scene_sea, woman_dunes, tokyo_olympiad, ikiru, tetsuo, blood_lake]
 
+#Method that opens single complete page of HTML:
 fresh_tomatoes.open_movies_page(movies)
 
 
