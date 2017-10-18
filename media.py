@@ -22,11 +22,11 @@ Function: Opens YouTube link from within Python-generated HTML.
 
 
 class Movie():
-"""Collects data for specific films to display on website. Method
-displays video from trailer URL in film instances.
+    """Collects data for specific films to display on website. Method
+    displays video from trailer URL in film instances.
 
-Attributes match args, in order, as listed in comments above.
-"""
+    Attributes match args, in order, as listed in comments above.
+    """
 
     def __init__(self, movie_title, movie_storyline, poster_image, trailer,
                  release_date, country, director):
