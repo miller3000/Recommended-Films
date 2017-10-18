@@ -8,11 +8,11 @@ This code was developed from tutorials and existing code provided by Udacity.
 
 ## For Users
 
-The [HTML page](../fresh_tomatoes.html) should fully function in Chrome and other current browsers, with no additional dependencies. Without the given HTML, the program can be launched from the command line using entertainment_center.py (on Mac, `python entertainment_center.py`), which will generate the [HTML](../fresh_tomatoes.html) in this repository and open it in your browser.
+The [HTML page](../master/fresh_tomatoes.html) should fully function in Chrome and other current browsers, with no additional dependencies. Without the given HTML, the program can be launched from the command line using entertainment_center.py (on Mac, `python entertainment_center.py`), which will generate the [HTML](../master/fresh_tomatoes.html) in this repository and open it in your browser.
 
 ## For Contributors
 
-[fresh_tomatoes.py](../fresh_tomatoes.py) generates the HTML using webbrowser, os, and re modules. To call fresh_tomatoes and open the web browser, run [entertainment_center.py](../entertainment_center.py) from your command line or IDE. [media.py](../media.py) defines the Movie class, and entertainment_center.py includes all film data. These files could be expanded for greater scope, data, and functionality at a later date.
+[fresh_tomatoes.py](../master/fresh_tomatoes.py) generates the HTML using webbrowser, os, and re modules. To call fresh_tomatoes and open the web browser, run [entertainment_center.py](../master/entertainment_center.py) from your command line or IDE. [media.py](../master/media.py) defines the Movie class, and entertainment_center.py includes all film data. These files could be expanded for greater scope, data, and functionality at a later date.
 
 ## Improvements / Issues
 
