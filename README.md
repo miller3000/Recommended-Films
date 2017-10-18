@@ -28,7 +28,7 @@ $ python entertainment_center.py
 
 ## For Users
 
-The current [HTML page](../master/fresh_tomatoes.html) should fully function as-is in Chrome and other current browsers.
+After downloading, the current [HTML page](http://htmlpreview.github.io/?https://github.com/miller3000/movie_trailer_website/blob/master/fresh_tomatoes.html) should fully function as-is in Chrome and other current browsers.
 
 To add more films, edit `entertainment_center.py` by following the comments listing film attributes. After revision, the HTML can be regenerated from the command line (on Mac, `python entertainment_center.py`).
 
@@ -36,7 +36,7 @@ To add more films, edit `entertainment_center.py` by following the comments list
 
 YouTube links are never permanently reliable, and another video hosting or access option would be ideal, especially for international users. As of October 2017, "Scene at the Sea" trailer can only be viewed from youtube.com in the U.S., due to copyright issues. To move beyond YouTube hosting, or to embed other services (Mubi, Vimeo), fresh_tomatoes would need to be significantly revised.
 
-Please submit bugs and feature requests to @miller3000.
+Please submit bugs and feature requests to [@miller3000](https://github.com/miller3000/).
 
 ## To-do
 
