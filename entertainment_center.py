@@ -21,7 +21,6 @@ Args (from media.py):
     director
 """
 
-
 mulholland_drive = media.Movie("Mulholland Drive",
                                "An actress comes to Hollywood and finds a " +
                                    "world of nightmares.",
@@ -77,10 +76,10 @@ tokyo_olympiad = media.Movie("Tokyo Olympiad",
                                  "Olympics in Tokyo.",
                              "https://upload.wikimedia.org/wikipedia/en/0/" +
                                  "03/Tokyoolympiadposter.jpg",
-                            "https://youtu.be/GBfBzDRxRlI",
-                            "1965",
-                            "Japan",
-                            "Kon Ichikawa")
+                             "https://youtu.be/GBfBzDRxRlI",
+                             "1965",
+                             "Japan",
+                             "Kon Ichikawa")
 
 ikiru = media.Movie("Ikiru",
                     "A dying man searches for meaning in his life.",
@@ -115,9 +114,9 @@ blood_lake = media.Movie("Blood Lake",
 movies = [mulholland_drive, celine_and_julie, tokyo_story, scene_sea,
           woman_dunes, tokyo_olympiad, ikiru, tetsuo, blood_lake]
 
-fresh_tomatoes.open_movies_page(movies)
-#Method takes above film list as arg, and outputs HTML
+#Method takes list movies as arg, and outputs HTML
 #(fresh_tomatoes.html) to open in browser."""
+fresh_tomatoes.open_movies_page(movies)
 
 
 """Copyright 2017 Andrew Miller
