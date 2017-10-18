@@ -1,22 +1,42 @@
 import media
 import fresh_tomatoes
 
-#Data on featured films:
+"""Assigns arguments to seven Movie class variables from media.py.
+Collects films in a list to pass into fresh_tomatoes.open_movies_page,
+which generates HTML and opens web browser.
+
+Code from movie_trailer_website, which can be executed from
+entertainment_center.py.
+
+Films added to file intermittently to fit project purpose of listing
+"Andy's recommended films".  
+
+Args (from media.py):
+    title
+    storyline
+    poster_image_url
+    youtube_trailer_url
+    release_date
+    country
+    director
+"""
+
+
 mulholland_drive = media.Movie("Mulholland Drive",
                         "An actress comes to Hollywood and finds a world of nightmares.",
                         "https://upload.wikimedia.org/wikipedia/en/0/0f/Mulholland.png",
                         "https://www.youtube.com/watch?v=jbZJ487oJlY",
-                               "2001",
-                               "U.S.",
-                               "David Lynch")
+                        "2001",
+                        "U.S.",
+                        "David Lynch")
 
 celine_and_julie = media.Movie("Celine and Julie Go Boating",
-                     "Two friends in Paris try to change the world around them.",
-                     "https://upload.wikimedia.org/wikipedia/en/3/34/Celine_and_Julie_Go_Boating_poster.jpg",
-                     "https://www.youtube.com/watch?v=dCGmSYjp7fE",
-                               "1974",
-                               "France",
-                               "Jacques Rivette")
+                      "Two friends in Paris try to change the world around them.",
+                      "https://upload.wikimedia.org/wikipedia/en/3/34/Celine_and_Julie_Go_Boating_poster.jpg",
+                      "https://www.youtube.com/watch?v=dCGmSYjp7fE",
+                      "1974",
+                      "France",
+                      "Jacques Rivette")
 
 tokyo_story = media.Movie("Tokyo Story",
                           "An aging couple visits their grown children in a time of change.",
@@ -76,8 +96,23 @@ blood_lake = media.Movie("Blood Lake",
                    
 movies = [mulholland_drive, celine_and_julie, tokyo_story, scene_sea, woman_dunes, tokyo_olympiad, ikiru, tetsuo, blood_lake]
 
-#Method that opens single complete page of HTML:
 fresh_tomatoes.open_movies_page(movies)
+#Method takes above film list as arg, and outputs HTML
+#(fresh_tomatoes.html) to open in browser."""
 
 
+"""Copyright 2017 Andrew Miller
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+"""
 

@@ -21,18 +21,29 @@ As of October 2016, "Scene at the Sea" trailer can only be viewed from YouTube d
 
 ## To-do
 
-[ ] Test in all major browsers
-[ ] Improve styling in Bootstrap and CSS - e.g., row layout can be awkward on window resizing
-[ ] Modify movie_tiles in fresh_tomatoes to allow link functionality from text below poster images
-[ ] Design and insert copyright attribution for posters and trailers without adding clutter to design
+- [ ] Test in all major browsers
+- [ ] Improve styling in Bootstrap and CSS - e.g., row layout can be awkward on window resizing
+- [ ] Modify movie_tiles in fresh_tomatoes to allow link functionality from text below poster images
+- [ ] Design and insert copyright attribution for posters and trailers without adding clutter to design
 
 _Next-level:_
-[ ] An "About" section to provide context for choice of films
-[ ] Film data should be moved to separate database or file, especially if film set increases
-[ ] Add user input to add films to site, or sort, from web interface
+- [ ] An "About" section to provide context for choice of films
+- [ ] Film data should be moved to separate database or file, especially if film set increases
+- [ ] Add user input to add films to site, or sort, from web interface
 
 ## License
 
-[GNU Public License](http://www.gnu.org/licenses/#GPL)
+Copyright 2017 Andrew Miller
 
-Produced October 2017 by Andrew Miller
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
