@@ -23,7 +23,8 @@ $ git clone https://github.com/miller3000/movie_trailer_website
 $ cd movie_trailer_website
 
 # Compile and run program
-$ python entertainment_center.py```
+$ python entertainment_center.py
+```
 
 ## For Users
 
