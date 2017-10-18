@@ -23,7 +23,7 @@ Args (from media.py):
 
 
 mulholland_drive = media.Movie("Mulholland Drive",
-                               "An actress comes to Hollywood and finds a" +
+                               "An actress comes to Hollywood and finds a " +
                                    "world of nightmares.",
                                "https://upload.wikimedia.org/wikipedia/en/0/" +
                                    "0f/Mulholland.png",
