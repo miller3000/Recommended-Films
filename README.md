@@ -1,6 +1,6 @@
 # Andy's Recommended Films
 
-This is source code to generate a simple personal website in Python from the command line (on Mac, `python entertainment_center.py`), without a server. The functioning website is intended for my friends and I to review films we'd like to watch in the months to come. Features include poster images, directors, release years, countries of origin, and viewable trailers.
+This is source code to generate a simple personal website in Python from the command line (on Mac, `python entertainment_center.py`), without a server. The [functioning website](http://htmlpreview.github.io/?https://github.com/miller3000/movie_trailer_website/blob/master/fresh_tomatoes.html) is intended for my friends and I to review films we'd like to watch in the months to come. Features include poster images, directors, release years, countries of origin, and viewable trailers.
 
 _Version and documentation authored October 2017_
 
