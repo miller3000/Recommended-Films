@@ -33,13 +33,13 @@ mulholland_drive = media.Movie("Mulholland Drive",
 
 celine_and_julie = media.Movie("Celine and Julie Go Boating",
                                "Two friends in Paris try to change the " +
-                                  "world around them.",
-                                "https://upload.wikimedia.org/wikipedia/en/3" +
-                                  "/34/Celine_and_Julie_Go_Boating_poster.jpg",
-                                "https://www.youtube.com/watch?v=dCGmSYjp7fE",
-                                "1974",
-                                "France",
-                                "Jacques Rivette")
+                                   "world around them.",
+                               "https://upload.wikimedia.org/wikipedia/en/3" +
+                                   "/34/Celine_and_Julie_Go_Boating_poster.jpg",
+                               "https://www.youtube.com/watch?v=dCGmSYjp7fE",
+                               "1974",
+                               "France",
+                               "Jacques Rivette")
 
 tokyo_story = media.Movie("Tokyo Story",
                           "An aging couple visits their grown children in a " +
