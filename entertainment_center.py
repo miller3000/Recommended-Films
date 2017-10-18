@@ -62,7 +62,7 @@ scene_sea = media.Movie("Scene at the Sea",
                         "Takeshi Kitano")
 
 woman_dunes = media.Movie("Woman in the Dunes",
-                          "Two strangers are trapped in a sand pit in a" +
+                          "Two strangers are trapped in a sand pit in a " +
                               "mysterious village.",
                           "https://upload.wikimedia.org/wikipedia/en/1/11/" +
                               "Woman_in_the_Dunes_poster.jpg",
