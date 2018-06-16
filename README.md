@@ -17,10 +17,10 @@ Upon running program, compiled .pyc files and .html file are generated, and are 
 To clone and run this application, you'll need Git and Python (2.7 or later) installed on your computer. From your command line:
 
 ```# Clone this repository
-$ git clone https://github.com/miller3000/movie_trailer_website
+$ git clone https://github.com/miller3000/recommended-films
 
 # Go into the repository
-$ cd movie_trailer_website
+$ cd recommended-films
 
 # Compile and run program
 $ python entertainment_center.py
