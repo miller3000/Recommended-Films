@@ -4,7 +4,7 @@ This is source code to generate a simple personal website in Python from the com
 
 _Version and documentation authored October 2017_
 
-## Contents of movie_trailer_website
+## Contents
 
 - [entertainment_center.py](../master/entertainment_center.py): Executes program, launches HTML in browser, stores movie data
 - [media.py](../master/media.py): Module defining Movie class
